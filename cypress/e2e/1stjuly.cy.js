@@ -56,7 +56,7 @@
 
 //Hi How are you
 //Developed by Bharat
-
+//Trained by Santhosh
 describe('Template Spec',()=>{
     it('switch to alert',()=>{
 
