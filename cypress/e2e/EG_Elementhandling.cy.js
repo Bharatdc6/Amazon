@@ -274,7 +274,19 @@
 //   })
 // })
 
+ 
+//Developed by Barry
+  describe('Temp handling', ()=>{
+    it('navigation',()=>{
 
+      cy.visit('https://www.opencart.com/')
+      cy.contains('Markeplace').click()
+      cy.url().should('contain','extension')
+      
+    })
+  })
+
+  //Modified by Bharat
   describe('Temp handling', ()=>{
     it('navigation',()=>{
 
